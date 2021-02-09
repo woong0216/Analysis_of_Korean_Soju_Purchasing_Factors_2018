@@ -1,0 +1,33 @@
+data <- read.table("C:\\Users\\jisoo\\Desktop\\soju.txt")
+colnames(data) = c("학생ID", "소주종류", "도수", "숙취", "목넘김", "이벤트", "광고모델", "희소성", "디자인")
+data
+data_corr<-cor(data[,3:9])
+data_corr
+data_e<-eigen(data_corr)
+data_e$values
+plot(data_e$values, type="b", lwd=2)
+
+
+data_fa <- factanal(data[,3:9], factors=3, method="mle",rotation="none")
+data_fa
+data_fa$loadings
+
+data_fa_score <- factanal(data[,3:9], factors=3, scores="regression")   
+data_fa_score
+score <- cbind(data[,2], data_fa_score$scores)
+head(score)
+
+score.array <- array(rep(0, 560), dim=c(8, 3))
+for(i in 1:8){
+    score.array[i, 1] = mean(subset(score, data[,2] == i)[,2])
+    score.array[i, 2] = mean(subset(score, data[,2] == i)[,3])
+    score.array[i, 3] = mean(subset(score, data[,2] == i)[,4])
+}
+score.array
+score.array <- subset(score.array, score.array[,1] > -3)
+rownames(score.array) = c("참이슬 ", "처음처럼", "좋은데이", "한라산", "잎새주", "과일소주", "C1",
+"9시반")
+round(score.array, 3)
+
+plot(score.array[,1], score.array[,2], xlab = "X1", ylab="Y1", pch="")
+text(score.array[,1], score.array[,2], labels=rownames(score.array))
