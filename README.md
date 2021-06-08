@@ -1,5 +1,5 @@
 # Data Analysis-Soju Korea Beer
-## survey
+## Survey
 - Korean Soju Preference
 ## Analysis
 - factor analysis.
