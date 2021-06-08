@@ -1,6 +1,6 @@
 # Data Analysis-Soju Korea Beer
-> survey
+## survey
 - Korean Soju Preference
-> Analysis
+## Analysis
 - factor analysis.
 
