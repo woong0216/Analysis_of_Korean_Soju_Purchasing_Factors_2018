@@ -28,16 +28,16 @@
 
 - Factor Analysis
 
-> Analyze Variables with 3 Factor Analysis
+> Analyze Variables with 3 Factor Analysis (None)
 
 ![Factor Analysis 4](https://user-images.githubusercontent.com/63955072/122675578-054cd680-d215-11eb-988b-765740dcef9f.PNG)
 
-> Analyze variables with 3 factor analysis (regression score)
+> Analyze variables with 3 Factor Analysis (Regression)
 
 ![Factor Analysis 4 (regression)](https://user-images.githubusercontent.com/63955072/122675671-7ab8a700-d215-11eb-9fd0-9d8ad9abad7a.PNG)
 
 ## Analysis
-- factor analysis (none)
+- Factor Analysis (None)
 > Factor Analysis Results for Each Soju <br/>
 
 ![Output 1](https://user-images.githubusercontent.com/63955072/122675755-db47e400-d215-11eb-9ea0-433db2ef00ec.png)
@@ -46,7 +46,7 @@
 
 ![Output 2](https://user-images.githubusercontent.com/63955072/122675780-f155a480-d215-11eb-806e-5ee2703b5742.png)
 
-- factor analysis (regression)
+- Factor Analysis (Regression)
 > Factor Analysis Results for Each Soju <br/>
 
 ![Output 3](https://user-images.githubusercontent.com/63955072/122675853-4abdd380-d216-11eb-8bb7-6c753393a565.png)
@@ -56,10 +56,10 @@
 ![Output 4](https://user-images.githubusercontent.com/63955072/122675871-5c9f7680-d216-11eb-9050-94d9fd0f1f55.png)
 
 ## Conclusion
-- factor analysis (none)
+- Factor Analysis (None)
 > The correlation between Level and Advertising Model was the highest. <br/>
 > There was a high correlation between Neck Sweep and Design. <br/>
-- factor analysis (regression)
+- Factor Analysis (Regression)
 > We confirmed that the Advertising Model is important in choosing Soju. <br/>
 > The Level also has a high relationship to choose. <br/>
 > There was a high correlation between Neck Sweep and Design. <br/>
