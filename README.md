@@ -1,4 +1,4 @@
-# Data Analysis-Soju Korea Beer
+# Analysis of Korean Soju Purchasing Factors
 ## Propose
 - What factors do Korean university students buy soju when they buy it?
 - We would like to analyze objective factors through a survey.
